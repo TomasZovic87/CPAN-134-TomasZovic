@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Form</title>
+    <script src="../JavaScript/reservation_form.js" defer></script>
+</head>
+<body>
+    <h1>Reservation Request</h1>
+    <form id="reservationForm">
+        <fieldset>
+            <legend>General Information:</legend>
+            <label for="arrivalDate">Arrival date:</label>
+            <input type="date" id="arrivalDate"><br><br>
+            <label for="nights">Nights:</label>
+            <input type="text" id="nights"><br><br>
+            <label for="adults">Adults:</label>
+            <input type="text" id="adults"><br><br>
+            <label for="children">Children:</label>
+            <input type="text" id="children"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Preferences:</legend>
+            <label>Room type:</label>
+            <input type="radio" name="roomType" value="Standard">Standard
+            <input type="radio" name="roomType" value="Business">Business
+            <input type="radio" name="roomType" value="Suite">Suite<br><br>
+            <label>Bed type:</label>
+            <input type="radio" name="bedType" value="King">King
+            <input type="radio" name="bedType" value="Double">Double<br><br>
+            <label for="smoking">Smoking:</label>
+            <input type="checkbox" id="smoking">Yes
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information:</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email"><br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone"><br><br>
+        </fieldset>
+        <button type="submit">Submit Request</button>
+    </form>
+    <br>
+    <footer>Tomas Zovic/ Student Number N01657789</footer>
+</body>
+</html>
